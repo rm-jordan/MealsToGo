@@ -8,8 +8,7 @@ export default function App() {
     <>
       <SafeAreaView style={styles.container}>
         <View style={styles.search}>
-          <Searchbar />
-          <Text>search</Text>
+          <Searchbar mode="view" />
         </View>
         <View style={styles.list}>
           <Text>list</Text>
@@ -27,7 +26,6 @@ const styles = StyleSheet.create({
   },
   search: {
     padding: 16,
-    backgroundColor: "green",
   },
   list: {
     flex: 1,
